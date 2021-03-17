@@ -9,9 +9,6 @@ module.exports = {
     contentBase: path.join(__dirname, 'dist'),
     port: 3000,
   },
-  output: {
-    publicPath: 'http://localhost:3000/',
-  },
   resolve: {
     extensions: ['.ts', '.tsx', '.less', '.js', '.jsx'],
     plugins: [new TsconfigPathsPlugin()]
